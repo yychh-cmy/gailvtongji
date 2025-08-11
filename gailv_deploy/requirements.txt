@@ -1,0 +1,10 @@
+streamlit
+sqlite3
+hashlib
+pandas
+numpy
+matplotlib.pyplot
+io
+scipy
+datetime
+matplotlib.patches

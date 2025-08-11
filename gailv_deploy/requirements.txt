@@ -1,9 +1,10 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 io
 scipy
 datetime
 matplotlib.patches
+
 

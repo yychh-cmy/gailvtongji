@@ -2118,7 +2118,7 @@ def main():
                     st.session_state.username = username
                     st.session_state.login_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     st.success("登录成功！")
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error("用户名或密码错误")
         
@@ -2139,7 +2139,7 @@ def main():
                       st.session_state.current_login_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                       st.session_state.last_operation_id = None
                       st.session_state.current_page = None
-                      st.experimental_rerun()
+                      st.rerun()
 
     
     # 登录后的界面
@@ -2190,3 +2190,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

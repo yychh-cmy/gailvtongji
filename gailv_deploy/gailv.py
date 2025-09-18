@@ -234,7 +234,7 @@ def user_center():
                 if clear_user_history(st.session_state.username, st.session_state.current_login_time):
                     st.success("历史记录已清除！")
                     st.session_state.show_history = False
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error("清除历史记录失败！")
             
@@ -2162,7 +2162,7 @@ def main():
             st.session_state.logged_in = False
             st.session_state.username = ""
             st.session_state.login_time = ""
-            st.experimental_rerun()
+            st.rerun()
         
         # 显示对应页面
         if page == "首页":
@@ -2190,4 +2190,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

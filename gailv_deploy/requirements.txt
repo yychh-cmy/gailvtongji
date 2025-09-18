@@ -3,6 +3,7 @@ pandas
 numpy
 matplotlib
 scipy
+streamlit>=1.28
 
 
 

@@ -164,7 +164,7 @@ def export_operation_logs_to_excel(username, current_login_time):
 
 # 主界面
 def main_page():
-    st.title("欢迎来到概率统计动态演示平台")
+    st.title("欢迎来到数理实验互动视界平台")
     st.markdown("""
     **平台功能**：
     - 交互式概率实验模拟
@@ -2102,7 +2102,7 @@ def main():
     
     # 登录/注册界面
     if not st.session_state.logged_in:
-        st.title("概率统计动态演示平台")
+        st.title("数理实验互动视界平台")
         
         tab1, tab2, tab3 = st.tabs(["登录", "注册", "游客访问"])
 
@@ -2190,5 +2190,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
